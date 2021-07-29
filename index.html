@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Allow customers to point their camera at our free QR code to instantly access your menu!" />
+    <meta name="author" content="MenuSavvy" />
+    <meta name="keywords" content="qr menu, qr menu for restaurants, qr menu code, qr menu ordering, qr menu system, qr menu free, how to make a qr menu, how to create a qr menu, menu by qr code, bar menu, restaurant menu, bar menu ideas, qr menu creator, qr code menu restaurant, qr code menu free, qr menu digital, easy qr menu, qr code for menu, qr menu generator, qr menu maker, qr menu online, qr code on menu, qr code per menu, qr scan menu, menu savvy, menusavvy, scan order enjoy, scan order">
+    <title>OrderDeck - QR Menu for Restaurants</title>
+    <link href="/channel/menusavvy/css/styles.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script data-search-pseudo-elements defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.24.1/feather.min.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/99c9bd0f1f.js" crossorigin="anonymous"></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://menusavvy.com/channel/menusavvy/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://menusavvy.com/channel/menusavvy/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://menusavvy.com/channel/menusavvy/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="https://menusavvy.com/channel/menusavvy/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#3167E1">
+
+
+
+
+<style>
+    [data-aos][data-aos][data-aos-delay="800"].aos-animate, body[data-aos-delay="800"] [data-aos].aos-animate {
+    transition-delay: .8s;
+    font-size: 17px;
+}
+</style>
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:title" content="MenuSavvy" />
+    <meta property="og:url" content="https://menusavvy.com/" />
+    <meta property="og:site_name" content="MenuSavvy" />
+    <meta property="og:description" content="MenuSavvy QR menus put menus in the palm of your hand." />
+
+
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://menusavvy.com/channel/menusavvy/img/ogphoto2.png" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170099360-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-170099360-1');
+    </script>
+</head>
+
+<body>
+    <div id="layoutDefault">
+        <div id="layoutDefault_content">
+            <main>
+                <nav class="navbar navbar-marketing navbar-expand-lg bg-transparent navbar-dark fixed-top" style="min-height: 60px;">
+                    <div class="container d-flex justify-content-between">
+                        <div>
+                            <a class="navbar-brand text-light" href="/">
+                            <img alt="MenuSavvy"
+                                 style="max-width: 200px; height: auto !important;"
+                                 src="https://menusavvy.com/channel/menusavvy/img/logos/Logo-Line-10.png"
+                            />
+                        </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="position: absolute; right: 15px; margin-top: 6px;">
+                            <i data-feather="menu"></i>
+                        </button>
+                        </div>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <a class="btn-secondary btn rounded-pill px-4 ml-lg-4" href="/auth/login">Get a free demo</a>
+                            <a class="btn-secondary btn rounded-pill px-4 ml-lg-4" href="/auth/register">Contact us</a>
+
+                        </div>
+                    </div>
+                </nav>
+
+
+
+                <header class="page-header page-header-dark bg-img-cover overlay d-flex align-items-center" style="height: 100vh; min-height: 600px">
+                    <div class="container" style="z-index: 999;">
+                        <div class="row justify-content-center">
+                            <div class="col-xl-8 text-center">
+                                <h1 class="text-light text-bold" data-aos="zoom-out" data-aos-delay="200" style="font-size: 58px">
+                                    Menus in the palm of your hand.
+                                </h1>
+                                <h4 class="text-light mt-4 text-script" data-aos="zoom-out" data-aos-delay="800">
+                                    Enhance your restaurant's customer experience with a QR code menu, today!
+                                </h4>
+                                <div class="row mx-0 d-flex justify-content-center" data-aos="zoom-out" data-aos-delay="1200">
+                                    <div class="col-md-6">
+                                        <a href="/auth/register" class="btn btn-primary btn-block rounded-pill mt-5" type="submit" style="border-radius: 6px !important; width: 300px;">
+                                            <h5 class="mb-0 text-light">
+                                                Get your menu today
+                                            </h5>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-header-cover">
+                        <div class="page-header-overlay"></div>
+                        <img class="page-header-image" src="https://menusavvy.com/channel/menusavvy/img/photos/cocktail.jpg" />
+                    </div>
+                </header>
+
+                <section class="bg-primary py-5" style="background-image: url('https://menusavvy.com/channel/menusavvy/img/patterns/pattern-food.png');">
+                    <div class="container">
+                        <div class="row d-flex justify-content-center align-items-center py-5">
+                            <div class="col-md-12">
+                                <h2 class="mb-5 text-center color-white" data-aos="fade-up" data-aos-delay="200">
+                                    Delight your guests while saving money and time on menu production.
+                                </h2>
+                            </div>
+                            <!-- <div class="col-md-6 mx-0" data-aos="fade-up">
+                                <h4 class="color-white" style="font-weight: 500">
+                                    Ready to use in three easy steps:
+                                </h4>
+                                <ol class="list-large color-white" style="margin-left: 22px">
+                                    <li>
+                                        Sign up and build your menu in minutes.
+                                    </li>
+                                    <li>
+                                        Print your QR codes instantly.
+                                    </li>
+                                    <li>
+                                        Start taking orders.
+                                    </li>
+                                </ol> -->
+
+                                <!-- <div class="d-flex flex-column align-items-center mb-4 d-block d-md-none">
+                                    <a href="/auth/register" class="btn btn-secondary btn-block rounded-pill mt-4 d-block d-md-none" type="submit" data-aos="fade-up" data-aos-delay="600" style="border-radius: 6px !important; width: 300px">
+                                        <h5 class="mb-0 text-light">
+                                            Get Started for Free!
+                                        </h5>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mx-0">
+                                <iframe src="https://www.youtube.com/embed/5Ul_rUuoUZE" class="rounded" data-aos="fade-up" frameborder="0" scrolling="no" style="height: 360px;" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                                <p class="text-center color-white mt-3" data-aos="fade-up" style="font-style: italic; font-size: 20px;">
+                                    See how it works in your restaurant.
+                                </p>
+                            </div>
+                        </div>
+                    </div> -->
+                </section>
+
+                <section style="padding-top: 2rem !important;" class="bg-gray py-10">
+                    <div   class="container">
+                        <h2 class="mb-5 text-center" data-aos="fade-up" data-aos-delay="100">
+                            Made for Your Business.
+                        </h2>
+
+                        <div class="row text-center">
+                            <div class="col-md-3 px-1 py-1">
+                                <div class="restaurant-type" data-aos="fade-up" data-aos-delay="0" style="background-image: url(https://source.unsplash.com/aBNPslolmJM/600x600);">
+                                    <div class="restaurant-type-inner">
+                                        <div class="restaurant-type-overlay"></div>
+                                        <h6 class="restaurant-type-name color-white">
+                                            White table cloth </h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 px-1 py-1">
+                                <div class="restaurant-type" data-aos="fade-up" data-aos-delay="0" style="background-image: url(https://source.unsplash.com/e70FOa-mzKo/600x600);">
+                                    <div class="restaurant-type-inner">
+                                        <div class="restaurant-type-overlay"></div>
+                                        <h6 class="restaurant-type-name color-white">
+                                            Casual </h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 px-1 py-1">
+                                <div class="restaurant-type" data-aos="fade-up" data-aos-delay="0" style="background-image: url(https://source.unsplash.com/j-ei4eH1knk/600x600);">
+                                    <div class="restaurant-type-inner">
+                                        <div class="restaurant-type-overlay"></div>
+                                        <h6 class="restaurant-type-name color-white">
+                                            Quick serve </h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 px-1 py-1">
+                                <div class="restaurant-type" data-aos="fade-up" data-aos-delay="0" style="background-image: url(https://source.unsplash.com/ye5T5R0G-GA/600x600);">
+                                    <div class="restaurant-type-inner">
+                                        <div class="restaurant-type-overlay"></div>
+                                        <h6 class="restaurant-type-name color-white">
+                                            Food trucks </h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 px-1 py-1">
+                                <div class="restaurant-type" data-aos="fade-up" data-aos-delay="0" style="background-image: url(https://source.unsplash.com/YlKkVHK6Alg/600x600);">
+                                    <div class="restaurant-type-inner">
+                                        <div class="restaurant-type-overlay"></div>
+                                        <h6 class="restaurant-type-name color-white">
+                                            Takeout </h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 px-1 py-1">
+                                <div class="restaurant-type" data-aos="fade-up" data-aos-delay="0" style="background-image: url(https://source.unsplash.com/qOOwO1Z-I68/600x600);">
+                                    <div class="restaurant-type-inner">
+                                        <div class="restaurant-type-overlay"></div>
+                                        <h6 class="restaurant-type-name color-white">
+                                            Food courts </h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 px-1 py-1">
+                                <div class="restaurant-type" data-aos="fade-up" data-aos-delay="0" style="background-image: url(https://source.unsplash.com/Zrp9b3PMIy8/600x600);">
+                                    <div class="restaurant-type-inner">
+                                        <div class="restaurant-type-overlay"></div>
+                                        <h6 class="restaurant-type-name color-white">
+                                            Bars </h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 px-1 py-1">
+                                <div class="restaurant-type" data-aos="fade-up" data-aos-delay="0" style="background-image: url(https://source.unsplash.com/5E0d3lfoC1w/600x600);">
+                                    <div class="restaurant-type-inner">
+                                        <div class="restaurant-type-overlay"></div>
+                                        <h6 class="restaurant-type-name color-white">
+                                            Cafeterias </h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 px-1 py-1">
+                                <div class="restaurant-type" data-aos="fade-up" data-aos-delay="0" style="background-image: url(https://source.unsplash.com/aF1NPSnDQLw/600x600);">
+                                    <div class="restaurant-type-inner">
+                                        <div class="restaurant-type-overlay"></div>
+                                        <h6 class="restaurant-type-name color-white">
+                                            Wineries, breweries, and distilleries </h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 px-1 py-1">
+                                <div class="restaurant-type" data-aos="fade-up" data-aos-delay="0" style="background-image: url(https://source.unsplash.com/I79Pgmhmy5M/600x600);">
+                                    <div class="restaurant-type-inner">
+                                        <div class="restaurant-type-overlay"></div>
+                                        <h6 class="restaurant-type-name color-white">
+                                            Coffee shops </h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 px-1 py-1">
+                                <div class="restaurant-type" data-aos="fade-up" data-aos-delay="0" style="background-image: url(https://source.unsplash.com/ZAiOE5lVhNM/600x600);">
+                                    <div class="restaurant-type-inner">
+                                        <div class="restaurant-type-overlay"></div>
+                                        <h6 class="restaurant-type-name color-white">
+                                            Pizzerias </h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 px-1 py-1">
+                                <div class="restaurant-type" data-aos="fade-up" data-aos-delay="0" style="background-image: url(https://source.unsplash.com/NEab1U1FfKM/600x600);">
+                                    <div class="restaurant-type-inner">
+                                        <div class="restaurant-type-overlay"></div>
+                                        <h6 class="restaurant-type-name color-white">
+                                            Ice cream parlors </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row d-block d-md-non">
+                            <div class="col-md-12 d-flex justify-content-center">
+                                <a href="/auth/register" class="btn btn-secondary btn-block rounded-pill mt-4 d-block d-md-none" type="submit" data-aos="fade-up" data-aos-delay="600" style="border-radius: 6px !important; width: 300px">
+                                    <h5 class="mb-0 text-light">
+                                        Get your QR menu!
+                                    </h5>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="bg-light py-10">
+                    <div class="container">
+                        <div class="row d-flex justify-content-center align-items-center">
+                            <!-- <div class="col-lg-12">
+                                <h2 class="mb-5 text-center" data-aos="fade-up">
+                                    Basic and Premium Features Designed for You and Your Customers.
+                                </h2>
+                            </div> -->
+                        </div>
+                        <!-- <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <ul class="list-large list-bubbles" data-aos="fade-up" data-aos-delay="200">
+                                    <li>Easy to Build and Edit Menus</li>
+                                    <li>Add Multiple Menus</li>
+                                    <li>Choose Your Menu Look and Feel</li>
+                                    <li>Customer Analytics Dashboard</li>
+                                    <li>Upload Images of Items</li>
+                                                     <li>Multi-Location and Multi-User Support</li>-->
+                                    <!-- <li>Optimized for Mobile Viewing</li>
+                                    <li>Set Visibility Days and Times for Different Menus</li>
+                                    <li>Many More</li>
+                                </ul> --> 
+
+                                <!-- <div class="d-flex justify-content-center" data-aos="zoom-out" data-aos-delay="400">
+                                    <a href="/auth/register" class="btn btn-primary btn-block rounded-pill my-3" type="submit" style="border-radius: 6px !important; font-weight: 900; width: 300px;">
+                                        <h5 class="mb-0 text-light">
+                                            Get Started for Free!
+                                        </h5>
+                                    </a>
+                                </div>
+
+                                <div class="row mx-0 my-5">
+                                    <div class="col-md-8 mx-0 pl-3 pl-md-0">
+                                        <img alt="MenuSavvy dashboard" data-aos="fade-up" data-aos-delay="800" class="rounded shadow w-100" style="border: 1px solid #e0e0eb; max-height: 270px; object-fit: contain;" src="https://menusavvy.com/channel/menusavvy/img/mockups/dashboard.png">
+                                        <p class="text-center mt-3 w-100" data-aos="fade-up" data-aos-delay="800" style="font-style: italic; font-size: 20px;">
+                                            Menu Creation Dashboard
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4 mx-0 pr-3 pr-md-0">
+                                        <img alt="MenuSavvy QR codes" data-aos="fade-up" data-aos-delay="1200" class="rounded shadow w-100" style="border: 1px solid #e0e0eb; max-height: 270px; object-fit: contain;" src="https://menusavvy.com/channel/menusavvy/img/mockups/code.png">
+                                        <p class="text-center mt-3 w-100" data-aos="fade-up" data-aos-delay="1200" style="font-style: italic; font-size: 20px;">
+                                            QR Codes
+                                        </p>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <div class="col-md-6">
+                                <section id="menu-mock" data-aos="zoom-in" data-aos-delay="200">
+                                    <div class="menu-mock-iphone">
+                                        <iframe class="menu-mock-iframe" data-aos="zoom-in" data-aos-delay="600" src="https://lacasonamenu.netlify.app/"></iframe>
+                                    </div>
+                                </section>
+                                <p class="text-center mt-3" data-aos="fade-up" style="font-weight: bold; font-size: 20px;">
+                                    Check out our interactive preview.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="bg-gray py-10">
+                    <div class="container">
+                        <div class="row d-flex justify-content-center align-items-center">
+                            <div class="col-lg-12">
+                                <h2 class="mb-5 text-center" data-aos="fade-up">
+                                    You'll Be in Good Company.
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div id="counter" class="counter">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <h2 class="counter-count text-center" data-aos="zoom-in" style="opacity: 0">
+                                                    <page-fragment data-checksum="2b9586342c463ef049497d984ec680a2b4b8f5db" data-title="homepage/states" data-id="233" data-guid="5f24402e61a59"> 2000
+                                                    </page-fragment>
+                                                </h2>
+                                                <h5 class="text-center" data-aos="zoom-in">
+                                                    QR Views
+                                                </h5>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <h2 class="counter-count text-center" data-aos="zoom-in" style="opacity: 0">
+                                                    <page-fragment data-checksum="ca0fce740ec43fd11a91ea413019a9223d245395" data-title="homepage/countries" data-id="234" data-guid="5f24402e674fb"> 3
+                                                    </page-fragment>
+                                                </h2>
+                                                <h5 class="text-center" data-aos="zoom-in">
+                                                    Clients
+                                                </h5>
+                                            </div>
+                                            <div class="col-md-6 mt-4 mt-md-0" data-aos="zoom-in">
+                                                <div id="carouselTestimonialsIndicators" class="carousel slide" data-ride="carousel">
+                                                    <ol class="carousel-indicators" style="bottom: -50px">
+                                                        <li data-target="#carouselTestimonialsIndicators" data-slide-to="0" class="active" style="background-color: black"></li>
+                                                        <!--                                        <li data-target="#carouselTestimonialsIndicators" data-slide-to="1" style="background-color: black"></li>-->
+                                                        <!--                                        <li data-target="#carouselTestimonialsIndicators" data-slide-to="2" style="background-color: black"></li>-->
+                                                    </ol>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- <section class="bg-light py-10" data-aos="fade-in" data-aos-delay="200">
+                    <div class="container">
+                        <!-- <div class="row">
+                            <div class="col-md-12">
+                                <div class="row d-flex justify-content-center align-items-center">
+                                    <div class="col-lg-12">
+                                        <h2 class="mb-5 text-center" data-aos="fade-up">
+                                            Learn About How We Can Help Your Business.
+                                        </h2>
+                                    </div>
+                                </div> -->
+                                <!-- <div class="row">
+                                    <div class="col-md-6 col-xl-4 mb-5">
+                                        <a class="card post-preview lift h-100" href="https://menusavvy.com/post/tips-for-making-your-restaurant-safer-for-diners">
+                                                                            <img class="card-img-top" src="https://cdn.nearbycreative.com/channels/menusavvy/86d2b43a8c08b23eb98123b752f6c7fc065060d9" alt="..." />
+                                                                        <div class="card-body">
+                                        <h5 class="card-title color-black">Tips for Making your Restaurant Safer for Diners</h5>
+                                        <p class="card-text">As restaurants work through the challenges of “the new normal,” the safety of customers, as well as staff members, is the number one concern. Here are some best practices for making your restaurant safer for guests.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <div class="post-preview-meta">
+                                            <img class="post-preview-meta-img" src="//www.gravatar.com/avatar/81bf342dc3d9f4e7c35e124ebc3c5a58?s=200&rating=pg&d=identicon" />
+                                            <div class="post-preview-meta-details">
+                                                <div class="post-preview-meta-details-name">Andrew Gordon</div>
+                                                <div class="post-preview-meta-details-date">
+                                                                                                            02 August 2020                                                                                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                    </div>
+                                    <div class="col-md-6 col-xl-4 mb-5">
+                                        <a class="card post-preview lift h-100" href="https://menusavvy.com/post/why-mobile-menus-are-better-for-customers-than-pdf-menus">
+                                                                            <img class="card-img-top" src="https://cdn.nearbycreative.com/channels/menusavvy/105848ac30917839197363975120f90eb54b6c10" alt="..." />
+                                                                        <div class="card-body">
+                                        <h5 class="card-title color-black">Why Mobile Menus are Better for Customers than PDF Menus</h5>
+                                        <p class="card-text">Restaurant owners and managers do not often stop to think about the readability challenges and other frustrations that a PDF version of a menu brings to their guests, and the potential impact this can have on their business.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <div class="post-preview-meta">
+                                            <img class="post-preview-meta-img" src="//www.gravatar.com/avatar/81bf342dc3d9f4e7c35e124ebc3c5a58?s=200&rating=pg&d=identicon" />
+                                            <div class="post-preview-meta-details">
+                                                <div class="post-preview-meta-details-name">Andrew Gordon</div>
+                                                <div class="post-preview-meta-details-date">
+                                                                                                            28 July 2020                                                                                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                    </div>
+                                    <div class="col-md-6 col-xl-4 mb-5">
+                                        <a class="card post-preview lift h-100" href="https://menusavvy.com/post/3-ways-qr-code-digital-menus-can-save-your-restaurant-money">
+                                                                            <img class="card-img-top" src="https://cdn.nearbycreative.com/channels/menusavvy/0a115abf4710b25801b25b4a65783e70b1e3c03c" alt="..." />
+                                                                        <div class="card-body">
+                                        <h5 class="card-title color-black">3 Ways QR Code Digital Menus Can Save Your Restaurant Money</h5>
+                                        <p class="card-text">Many restaurants are producing costly paper menus. Digital Menus and QR menus offer an opportunity to save restaurants money.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <div class="post-preview-meta">
+                                            <img class="post-preview-meta-img" src="//www.gravatar.com/avatar/81bf342dc3d9f4e7c35e124ebc3c5a58?s=200&rating=pg&d=identicon" />
+                                            <div class="post-preview-meta-details">
+                                                <div class="post-preview-meta-details-name">Andrew Gordon</div>
+                                                <div class="post-preview-meta-details-date">
+                                                                                                            14 July 2020                                                                                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>  -->
+
+                <section class="bg-primary py-10" style="background-image: url('https://menusavvy.com/channel/menusavvy/img/patterns/pattern-food.png')">
+                    <div class="container">
+                        <div class="row">
+                            <div     style="padding-bottom: 6rem !important;"
+                            
+                            class="col-lg-12 d-flex flex-column justify-content-center align-items-center">
+                                <h2 class="text-light text-bold text-center" data-aos="fade-up" data-aos-delay="200">
+                                    Ready to dive in?
+Get your QR Code menu today
+                                </h2>
+                                <a href="/auth/register" class="btn btn-secondary btn-block rounded-pill mt-4" type="submit" data-aos="fade-up" data-aos-delay="600" style="border-radius: 6px !important; width: 300px;">
+                                    <h5 class="mb-0 text-light">
+                                        Get contacless menu!
+                                    </h5>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+
+                <script>
+                    function isScrolledIntoView(elem) {
+                        let docViewTop = $(window).scrollTop();
+                        let docViewBottom = docViewTop + $(window).height();
+                        let elemTop = elem.offset().top;
+                        let elemBottom = elemTop + elem.height();
+
+                        return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+                    }
+
+                    const counter = $('#counter');
+                    const counterCount = $('.counter-count');
+                    let hasAnimated = false;
+
+                    $(window).scroll(function() {
+                        if (!hasAnimated) {
+                            if (isScrolledIntoView(counter)) {
+                                hasAnimated = true;
+                                counterCount.each(function() {
+                                    $(this).animate({
+                                        opacity: 1,
+                                    }, 200, function() {
+                                        $(this).prop('Counter', 0).animate({
+                                            Counter: $(this).text()
+                                        }, {
+                                            duration: 5000,
+                                            easing: 'swing',
+                                            step: function(now) {
+                                                $(this).text(Math.ceil(now));
+                                            }
+                                        });
+                                    });
+                                });
+                            }
+                        }
+                    });
+                </script>
+            </main>
+        </div>
+
+        <div id="layoutDefault_footer">
+            <footer class="footer pt-10 pb-5 mt-auto bg-dark footer-dark">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="footer-brand mb-4">
+                                <img alt="MenuSavvy" style="max-width: 200px; opacity: 0.6" src="https://menusavvy.com/channel/menusavvy/img/logos/Logo-Line-10.png" />
+                            </div>
+                            <div class="icon-list-social mb-5">
+                                <a class="icon-list-social-link" href="https://facebook.com/menusavvy" target="_blank">
+                            <i class="fab fa-facebook"></i></a>
+                                <a class="icon-list-social-link" href="https://instagram.com/menusavvy_" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                                <a class="icon-list-social-link" href="https://twitter.com/menusavvy" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                            </div>
+                        </div>
+                        <!-- <div class="col-lg-8">
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="text-uppercase-expanded text-xs mb-4">About</div>
+                                    <ul class=" list-unstyled ml-0 mb-0">
+                                        <li class="mb-2"><a href="/blog">Blog</a></li>
+                                        <li class="mb-2"><a href="/contact">Contact</a></li>
+                                        <li class="mb-2"><a href="/auth">Log in</a></li>
+                                        <li class="mb-2"><a href="/auth/register">Sign up</a></li>
+                                    </ul>
+                                </div> -->
+
+                                <!-- <div class="col-4">
+                                    <div class="text-uppercase-expanded text-xs mb-4">Resources</div>
+                                    <ul class="list-unstyled ml-0 mb-0">
+                                        <li class="mb-2"><a href="/page/about">About</a></li>
+                                        <li class="mb-2"><a href="/page/venues">Venues</a></li> -->
+                                        <!--                                <li class="mb-2"><a href="/page/partners">Partners</a></li>-->
+                                    <!-- </ul>
+                                </div> -->
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="row align-items-center my-5">
+                        <hr class="my-5" style="background-color: rgba(255,255,255,0)" />
+                        <div class="col-md-6 small">Copyright &#xA9; MenuSavvy 2021</div>
+                        <div class="col-md-6 text-md-right small">
+                            <a href="/privacy" style="font-size: inherit !important;">Privacy Policy</a> &#xB7;
+                            <a href="/terms" style="font-size: inherit !important;">Terms &amp; Conditions</a>
+                        </div>
+                    </div>
+                </div> -->
+            </footer>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="/channel/menusavvy/js/scripts.js?v=eef8c3da1" type="text/javascript"></script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0"></script>
+    <script src="https://platform.linkedin.com/in.js" type="text/javascript">
+        lang: en_US
+    </script>
+
+    <!--<script src="/channel/menusavvy/js/sb-customizer.js"></script>-->
+    <!--<sb-customizer project="sb-ui-kit-pro"></sb-customizer>-->
+
+</body>
+
+</html>

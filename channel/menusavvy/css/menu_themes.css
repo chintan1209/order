@@ -1,0 +1,248 @@
+@charset "UTF-8";
+/** ALL THEMES SHARE THIS CSS **/
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,500,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display+SC:300,400,400i,500,600,700,800");
+.container {
+    margin-bottom: 25px;
+}
+
+.heading h2.item {
+    display: inline;
+}
+
+.heading .description {
+    display: inline;
+}
+
+.powered-by {
+    margin: 150px auto 0px auto;
+}
+
+.menu ul {
+    list-style-type: disc;
+}
+
+.menu ul li:before {
+    content: "• ";
+}
+
+.menu ul li {
+    display: inline;
+    margin: auto 5px;
+}
+
+.badge-info {
+    background-color: #007bff;
+}
+
+#menu-logo {
+    width: 100%;
+    max-width: 225px;
+}
+
+.line-item-image {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+/** BASIC THEME **/
+
+body.theme-basic {
+    /** GLOBAL **/
+    background-color: #fff;
+    font-family: "Metropolis", sans-serif;
+    /** VIEW A MENU PAGE */
+    /** MENU INDEX PAGE */
+}
+
+body.theme-basic#menu-view {
+    /**
+     * Header Area
+     */
+    /**
+     * Sub Headings
+     */
+    /**
+     * Line items
+     */
+    /**
+     * Misc text
+     */
+}
+
+body.theme-basic#menu-view .heading-name {
+    background-color: #eee;
+    border-radius: 3px;
+    padding: 5px;
+    text-align: center;
+}
+
+body.theme-basic#menu-view .line-item {
+    margin-bottom: 35px;
+}
+
+body.theme-basic#menu-view .line-item-name {
+    font-weight: 800;
+}
+
+body.theme-basic#menu-view .line-item-description {
+    font-weight: 400;
+}
+
+body.theme-basic#menu-view .line-item-extras {
+    font-weight: lighter;
+    font-size: 13px;
+    font-style: italic;
+}
+
+body.theme-basic#menu-view .line-item-price {
+    font-weight: bolder;
+}
+
+body.theme-basic#menu-index .card {
+    border: none;
+}
+
+body.theme-basic#menu-index .card .list-group .list-group-item {
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    background-color: black;
+}
+
+body.theme-basic#menu-index .card .list-group .list-group-item a {
+    font-weight: bolder;
+    font-family: "Metropolis", sans-serif;
+    color: #fff;
+}
+
+/** ELEGANT THEME **/
+
+body.theme-elegant {
+    /** GLOBAL **/
+    background-color: #fff;
+    font-family: "Montserrat", sans-serif;
+    /** VIEW A MENU PAGE */
+    /** MENU INDEX PAGE */
+}
+
+body.theme-elegant#menu-view {
+    /**
+     * Header Area
+     */
+    /**
+     * Sub Headings
+     */
+    /**
+     * Line items
+     */
+    /**
+     * Misc text
+     */
+}
+
+body.theme-elegant#menu-view .menu-name {
+    font-family: "Playfair Display SC", sans-serif;
+    margin-bottom: 30px;
+}
+
+body.theme-elegant#menu-view .menu-description {
+    font-family: "Montserrat", sans-serif;
+}
+
+body.theme-elegant#menu-view .heading-container {
+    text-align: center;
+}
+
+body.theme-elegant#menu-view .heading-name {
+    font-family: "Playfair Display SC", sans-serif;
+    background-color: #eee;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+body.theme-elegant#menu-view .heading-description {
+    font-family: "Montserrat", sans-serif;
+}
+
+body.theme-elegant#menu-view .line-item {
+    margin-bottom: 35px;
+}
+
+body.theme-elegant#menu-view .line-item-name {
+    font-weight: bolder;
+    font-family: "Playfair Display SC", sans-serif;
+}
+
+body.theme-elegant#menu-view .line-item-region {
+    font-family: "Playfair Display SC", sans-serif;
+}
+
+body.theme-elegant#menu-view .line-item-description {
+    font-weight: lighter;
+    font-family: "Montserrat", sans-serif;
+}
+
+body.theme-elegant#menu-view .line-item-extras {
+    font-weight: lighter;
+    font-size: 13px;
+    font-style: italic;
+}
+
+body.theme-elegant#menu-view .line-item-price {
+    font-weight: bolder;
+    font-family: "Montserrat", sans-serif;
+}
+
+body.theme-elegant#menu-view .text-container {
+    text-align: center;
+}
+
+body.theme-elegant#menu-view .text-description {
+    font-weight: lighter;
+    font-style: italic;
+}
+
+body.theme-elegant#menu-view .btn-primary,
+body.theme-elegant#menu-view .btn-primary:hover,
+body.theme-elegant#menu-view .btn-primary:active,
+body.theme-elegant#menu-view .btn-primary:visited,
+body.theme-elegant#menu-view .btn-primary:focus {
+    font-family: "Playfair Display SC", sans-serif;
+    color: white;
+    background-color: black;
+    border-color: black;
+}
+
+body.theme-elegant#menu-view .badge {
+    background-color: #fff;
+    color: #444;
+    font-weight: lighter;
+    text-transform: lowercase;
+    font-style: italic;
+    padding: 0;
+}
+
+body.theme-elegant#menu-index .card {
+    border: none;
+}
+
+body.theme-elegant#menu-index .card .list-group .list-group-item {
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    background-color: #000;
+}
+
+body.theme-elegant#menu-index .card .list-group .list-group-item a {
+    font-weight: bolder;
+    font-family: "Playfair Display SC", sans-serif;
+    color: #fff;
+}
+
+/*# sourceMappingURL=menu_themes.css.map */
